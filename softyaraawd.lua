@@ -1209,7 +1209,7 @@ local function getObjGen()
             Gui.Watermark.BackgroundTransparency = 1.000
             Gui.Watermark.Size = UDim2.new(0.5, 0, 0.0199999996, 0)
             Gui.Watermark.Font = Enum.Font.Gotham
-            Gui.Watermark.Text = "hydrahub v2 | nil | nil"
+            Gui.Watermark.Text = "ClCheat v1 | nil | nil"
             Gui.Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
             Gui.Watermark.TextSize = 14.000
             Gui.Watermark.TextStrokeTransparency = 0.800
@@ -1372,8 +1372,8 @@ local function getObjGen()
             Gui.Logo.LayoutOrder = -5
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
-            Gui.Logo.Image = "rbxassetid://18755573060"
-            Gui.Logo.ImageColor3 = Color3.fromRGB(134, 142, 255)
+            Gui.Logo.Image = "rbxassetid://18756824130"
+            Gui.Logo.ImageColor3 = Color3.fromRGB(255, 255, 255)
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
             Gui.UIGradient_5.Color =
@@ -3265,7 +3265,7 @@ function UILibrary.new(gameName, userId, rank)
     local Drag = Draggable.Drag(window.MainUI, Frame)
 
     --// Customize the GUI
-    window.Watermark.Text = ("hydrahub v2 | %s | %s"):format(userId, gameName)
+    window.Watermark.Text = ("ClCheat v1 | %s | %s"):format(userId, gameName)
     local userinfo = window.MainUI.Sidebar.ContentHolder.UserInfo.Content
     userinfo.Rank.Text = rank
     userinfo.Title.Text = userId
